@@ -8,13 +8,14 @@
              Shell.NavBarIsVisible="False">
     <ContentPage.Content>
         <StackLayout Padding="10,0,10,0" VerticalOptions="Center" HorizontalOptions="FillAndExpand">
-
+            <Image Source="login.png" WidthRequest="150" HeightRequest="150" Margin="10"></Image>
             <Entry Text="{Binding Username}" Placeholder="Username" />
             <Entry Text="{Binding Password}" Placeholder="Password" IsPassword="True" />
 
 
             <Button VerticalOptions="Center" 
                     Text="Login" 
+                    CornerRadius="50"
                     Command="{Binding LoginCommand}"/>
 
             <Label Text="{Binding WelcomeMessage}" FontSize="Subtitle" TextColor="{Binding MessageColor}" HorizontalOptions="Center" Margin="0,30,0,0" IsVisible="{Binding IsLoggerIn}"/>
