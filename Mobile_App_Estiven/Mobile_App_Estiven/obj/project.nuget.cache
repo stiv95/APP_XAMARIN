@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "K1FON9A5C+w/Rwqmv0+kmzBLqKGTeVN3xvMrKPK7WEadJqOpcB0OyKPZFx70ESvD9n2YCZEWbstr4uQn/i46fg==",
+  "success": true,
+  "projectFilePath": "C:\\Curso Xamarin\\capacitacionmobilexamarin_Xamarin_Mobile_Estiven\\Mobile_App_Estiven\\Mobile_App_Estiven\\Mobile_App_Estiven.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\jmoreno\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\jmoreno\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\jmoreno\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\jmoreno\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
+    "C:\\Users\\jmoreno\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512"
+  ],
+  "logs": []
+}
