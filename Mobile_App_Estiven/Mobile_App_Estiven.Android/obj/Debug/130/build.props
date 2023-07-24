@@ -25,11 +25,11 @@ androidgeneratejnimarshalmethods=false
 os=windows_nt
 androidincludedebugsymbols=true
 androidpackagenamingpolicy=lowercasecrc64
-_nugetassetstimestamp=638256257538475389
+_nugetassetstimestamp=638258076456804735
 typemapkind=strings-asm
 androidsupportedabis=arm64-v8a
 armeabi-v7a
 x86
 x86_64
 androidmanifestplaceholders=
-projectfullpath=c:\curso xamarin\capacitacionmobilexamarin_xamarin_mobile_estiven\mobile_app_estiven\mobile_app_estiven.android\mobile_app_estiven.android.csproj
+projectfullpath=c:\curso xamarin\app_xamarin\mobile_app_estiven\mobile_app_estiven.android\mobile_app_estiven.android.csproj

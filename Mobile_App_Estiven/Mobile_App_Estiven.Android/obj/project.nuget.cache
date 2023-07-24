@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "TJM17c1e92z/BNBEypR4Yzj1TqsQW5A0Z3bncptBXrn9XoVdvd0cS6z9n4SxNtFFjZt1RfF5v8DZQoaZZs+wNg==",
+  "dgSpecHash": "YxNiyLKgBZeRQE8aGyN3hHadAfd2Bn1oV+UC5X5FmY8X+zbLJkjAg3M0ltfvQF0o94DLZnnFewveyLBLTGMvDA==",
   "success": true,
-  "projectFilePath": "C:\\Curso Xamarin\\capacitacionmobilexamarin_Xamarin_Mobile_Estiven\\Mobile_App_Estiven\\Mobile_App_Estiven.Android\\Mobile_App_Estiven.Android.csproj",
+  "projectFilePath": "C:\\Curso Xamarin\\APP_XAMARIN\\Mobile_App_Estiven\\Mobile_App_Estiven.Android\\Mobile_App_Estiven.Android.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jmoreno\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Users\\jmoreno\\.nuget\\packages\\xamarin.androidx.activity\\1.2.4.1\\xamarin.androidx.activity.1.2.4.1.nupkg.sha512",

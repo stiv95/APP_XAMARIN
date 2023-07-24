@@ -548,11 +548,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Curso Xamarin\\capacitacionmobilexamarin_Xamarin_Mobile_Estiven\\Mobile_App_Estiven\\Mobile_App_Estiven\\Mobile_App_Estiven.csproj",
+      "projectUniqueName": "C:\\Curso Xamarin\\APP_XAMARIN\\Mobile_App_Estiven\\Mobile_App_Estiven\\Mobile_App_Estiven.csproj",
       "projectName": "Mobile_App_Estiven",
-      "projectPath": "C:\\Curso Xamarin\\capacitacionmobilexamarin_Xamarin_Mobile_Estiven\\Mobile_App_Estiven\\Mobile_App_Estiven\\Mobile_App_Estiven.csproj",
+      "projectPath": "C:\\Curso Xamarin\\APP_XAMARIN\\Mobile_App_Estiven\\Mobile_App_Estiven\\Mobile_App_Estiven.csproj",
       "packagesPath": "C:\\Users\\jmoreno\\.nuget\\packages\\",
-      "outputPath": "C:\\Curso Xamarin\\capacitacionmobilexamarin_Xamarin_Mobile_Estiven\\Mobile_App_Estiven\\Mobile_App_Estiven\\obj\\",
+      "outputPath": "C:\\Curso Xamarin\\APP_XAMARIN\\Mobile_App_Estiven\\Mobile_App_Estiven\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

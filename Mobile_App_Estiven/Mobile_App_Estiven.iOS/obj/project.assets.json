@@ -1254,11 +1254,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Curso Xamarin\\capacitacionmobilexamarin_Xamarin_Mobile_Estiven\\Mobile_App_Estiven\\Mobile_App_Estiven.iOS\\Mobile_App_Estiven.iOS.csproj",
+      "projectUniqueName": "C:\\Curso Xamarin\\APP_XAMARIN\\Mobile_App_Estiven\\Mobile_App_Estiven.iOS\\Mobile_App_Estiven.iOS.csproj",
       "projectName": "Mobile_App_Estiven.iOS",
-      "projectPath": "C:\\Curso Xamarin\\capacitacionmobilexamarin_Xamarin_Mobile_Estiven\\Mobile_App_Estiven\\Mobile_App_Estiven.iOS\\Mobile_App_Estiven.iOS.csproj",
+      "projectPath": "C:\\Curso Xamarin\\APP_XAMARIN\\Mobile_App_Estiven\\Mobile_App_Estiven.iOS\\Mobile_App_Estiven.iOS.csproj",
       "packagesPath": "C:\\Users\\jmoreno\\.nuget\\packages\\",
-      "outputPath": "C:\\Curso Xamarin\\capacitacionmobilexamarin_Xamarin_Mobile_Estiven\\Mobile_App_Estiven\\Mobile_App_Estiven.iOS\\obj\\",
+      "outputPath": "C:\\Curso Xamarin\\APP_XAMARIN\\Mobile_App_Estiven\\Mobile_App_Estiven.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -1281,8 +1281,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "C:\\Curso Xamarin\\capacitacionmobilexamarin_Xamarin_Mobile_Estiven\\Mobile_App_Estiven\\Mobile_App_Estiven\\Mobile_App_Estiven.csproj": {
-              "projectPath": "C:\\Curso Xamarin\\capacitacionmobilexamarin_Xamarin_Mobile_Estiven\\Mobile_App_Estiven\\Mobile_App_Estiven\\Mobile_App_Estiven.csproj"
+            "C:\\Curso Xamarin\\APP_XAMARIN\\Mobile_App_Estiven\\Mobile_App_Estiven\\Mobile_App_Estiven.csproj": {
+              "projectPath": "C:\\Curso Xamarin\\APP_XAMARIN\\Mobile_App_Estiven\\Mobile_App_Estiven\\Mobile_App_Estiven.csproj"
             }
           }
         }
