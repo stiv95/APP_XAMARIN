@@ -79,7 +79,6 @@ namespace Mobile_App_Estiven.ViewModels
         public string UserName { get; set; }
 
 
-
         public LoginViewModel()
         {
             LoginCommand = new Command(OnLoginClicked);
