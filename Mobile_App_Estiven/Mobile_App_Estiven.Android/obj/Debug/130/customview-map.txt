@@ -29,6 +29,7 @@ foreground;obj\Debug\130\res\mipmap-anydpi-v26\icon_round.xml
 FrameLayout;C:\APP_XAMARIN_2\Mobile_App_Estiven\Mobile_App_Estiven.Android\obj\Debug\130\lp\53\jl\res\layout\camerafragment.xml
 FrameLayout;C:\APP_XAMARIN_2\Mobile_App_Estiven\Mobile_App_Estiven.Android\obj\Debug\130\lp\55\jl\res\layout\bottomtablayout.xml
 item;C:\APP_XAMARIN_2\Mobile_App_Estiven\Mobile_App_Estiven.Android\obj\Debug\130\lp\55\jl\res\values\styles.xml
+item;obj\Debug\130\res\values\styles.xml
 LinearLayout;C:\APP_XAMARIN_2\Mobile_App_Estiven\Mobile_App_Estiven.Android\obj\Debug\130\lp\55\jl\res\layout\bottomtablayout.xml
 paths;C:\APP_XAMARIN_2\Mobile_App_Estiven\Mobile_App_Estiven.Android\obj\Debug\130\lp\54\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
 resources;C:\APP_XAMARIN_2\Mobile_App_Estiven\Mobile_App_Estiven.Android\obj\Debug\130\lp\55\jl\res\values\attrs.xml

@@ -704,3 +704,4 @@ C:\APP_XAMARIN_2\Mobile_App_Estiven\Mobile_App_Estiven.Android\obj\Debug\130\sta
 C:\APP_XAMARIN_2\Mobile_App_Estiven\Mobile_App_Estiven.Android\obj\Debug\130\stamp\_GenerateJavaStubs.stamp
 C:\APP_XAMARIN_2\Mobile_App_Estiven\Mobile_App_Estiven.Android\obj\Debug\130\stamp\_GeneratePackageManagerJava.stamp
 C:\APP_XAMARIN_2\Mobile_App_Estiven\Mobile_App_Estiven.Android\obj\Debug\130\stamp\_ResolveLibraryProjectImports.stamp
+C:\APP_XAMARIN_2\Mobile_App_Estiven\Mobile_App_Estiven.Android\obj\Debug\130\res\drawable\progress.gif
