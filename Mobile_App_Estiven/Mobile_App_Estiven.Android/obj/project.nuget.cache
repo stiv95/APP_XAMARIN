@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "UNperHcFC94+mJKScuSolGbTc12spc+LAM/flUukBeXF3zruZgJYQcFg0X327oV+Ap5G7/ot80c/cfArkWAvNQ==",
+  "dgSpecHash": "xxQVW37tJTUat7BhTy9Ed3y/vbR/gqQwe5yZlJbpSGt7H9B56o34DJI5ZsJ07ZXXuCu2pAkBE9VAISvk46nxDA==",
   "success": true,
-  "projectFilePath": "C:\\Curso Xamarin\\APP_XAMARIN\\Mobile_App_Estiven\\Mobile_App_Estiven.Android\\Mobile_App_Estiven.Android.csproj",
+  "projectFilePath": "C:\\APP_XAMARIN_2\\Mobile_App_Estiven\\Mobile_App_Estiven.Android\\Mobile_App_Estiven.Android.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jmoreno\\.nuget\\packages\\autofac\\7.0.1\\autofac.7.0.1.nupkg.sha512",
     "C:\\Users\\jmoreno\\.nuget\\packages\\autofac.extensions.dependencyinjection\\8.0.0\\autofac.extensions.dependencyinjection.8.0.0.nupkg.sha512",

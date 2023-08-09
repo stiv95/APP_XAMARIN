@@ -1,14 +1,86 @@
-C:\Curso Xamarin\APP_XAMARIN\Mobile_App_Estiven\Mobile_App_Estiven.iOS\obj\iPhone\Debug\actool\_PartialAppManifest.items
-C:\Curso Xamarin\APP_XAMARIN\Mobile_App_Estiven\Mobile_App_Estiven.iOS\obj\iPhone\Debug\actool\_BundleResourceWithLogicalName.items
-C:\Curso Xamarin\APP_XAMARIN\Mobile_App_Estiven\Mobile_App_Estiven.iOS\obj\iPhone\Debug\actool\_ProcessedImageAssetsPath.items
-C:\Curso Xamarin\APP_XAMARIN\Mobile_App_Estiven\Mobile_App_Estiven.iOS\obj\iPhone\Debug\ibtool\_BundleResourceWithLogicalName.items
-C:\Curso Xamarin\APP_XAMARIN\Mobile_App_Estiven\Mobile_App_Estiven.iOS\obj\iPhone\Debug\ibtool\_ProcessedInterfaceDefinitionsPath.items
-C:\Curso Xamarin\APP_XAMARIN\Mobile_App_Estiven\Mobile_App_Estiven.iOS\obj\iPhone\Debug\coremlc\_PartialAppManifest.items
-C:\Curso Xamarin\APP_XAMARIN\Mobile_App_Estiven\Mobile_App_Estiven.iOS\obj\iPhone\Debug\coremlc\_BundleResourceWithLogicalName.items
-C:\Curso Xamarin\APP_XAMARIN\Mobile_App_Estiven\Mobile_App_Estiven.iOS\obj\iPhone\Debug\coremlc\_ProcessedCoreMLModelsPath.items
-C:\Curso Xamarin\APP_XAMARIN\Mobile_App_Estiven\Mobile_App_Estiven.iOS\obj\iPhone\Debug\_ProcessedBundleResourcesPath.items
-C:\Curso Xamarin\APP_XAMARIN\Mobile_App_Estiven\Mobile_App_Estiven.iOS\obj\iPhone\Debug\_ProcessedContentPath.items
-C:\Curso Xamarin\APP_XAMARIN\Mobile_App_Estiven\Mobile_App_Estiven.iOS\obj\iPhone\Debug\optimized\
-C:\Curso Xamarin\APP_XAMARIN\Mobile_App_Estiven\Mobile_App_Estiven.iOS\obj\iPhone\Debug\Mobile_App_Estiven.iOS.csproj.AssemblyReference.cache
-C:\Curso Xamarin\APP_XAMARIN\Mobile_App_Estiven\Mobile_App_Estiven.iOS\obj\iPhone\Debug\Mobile_App_Estiven.iOS.GeneratedMSBuildEditorConfig.editorconfig
-C:\Curso Xamarin\APP_XAMARIN\Mobile_App_Estiven\Mobile_App_Estiven.iOS\obj\iPhone\Debug\Mobile_App_Estiven.iOS.csproj.CoreCompileInputs.cache
+C:\APP_XAMARIN_2\Mobile_App_Estiven\Mobile_App_Estiven.iOS\bin\iPhone\Debug\Mobile_App_Estiven.iOS.exe
+C:\APP_XAMARIN_2\Mobile_App_Estiven\Mobile_App_Estiven.iOS\bin\iPhone\Debug\Mobile_App_Estiven.iOS.pdb
+C:\APP_XAMARIN_2\Mobile_App_Estiven\Mobile_App_Estiven.iOS\bin\iPhone\Debug\Autofac.dll
+C:\APP_XAMARIN_2\Mobile_App_Estiven\Mobile_App_Estiven.iOS\bin\iPhone\Debug\Autofac.Extensions.DependencyInjection.dll
+C:\APP_XAMARIN_2\Mobile_App_Estiven\Mobile_App_Estiven.iOS\bin\iPhone\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\APP_XAMARIN_2\Mobile_App_Estiven\Mobile_App_Estiven.iOS\bin\iPhone\Debug\Microsoft.Extensions.DependencyInjection.dll
+C:\APP_XAMARIN_2\Mobile_App_Estiven\Mobile_App_Estiven.iOS\bin\iPhone\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\APP_XAMARIN_2\Mobile_App_Estiven\Mobile_App_Estiven.iOS\bin\iPhone\Debug\Microsoft.Extensions.Http.dll
+C:\APP_XAMARIN_2\Mobile_App_Estiven\Mobile_App_Estiven.iOS\bin\iPhone\Debug\Microsoft.Extensions.Logging.dll
+C:\APP_XAMARIN_2\Mobile_App_Estiven\Mobile_App_Estiven.iOS\bin\iPhone\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+C:\APP_XAMARIN_2\Mobile_App_Estiven\Mobile_App_Estiven.iOS\bin\iPhone\Debug\Microsoft.Extensions.Options.dll
+C:\APP_XAMARIN_2\Mobile_App_Estiven\Mobile_App_Estiven.iOS\bin\iPhone\Debug\Microsoft.Extensions.Primitives.dll
+C:\APP_XAMARIN_2\Mobile_App_Estiven\Mobile_App_Estiven.iOS\bin\iPhone\Debug\Newtonsoft.Json.dll
+C:\APP_XAMARIN_2\Mobile_App_Estiven\Mobile_App_Estiven.iOS\bin\iPhone\Debug\Refit.dll
+C:\APP_XAMARIN_2\Mobile_App_Estiven\Mobile_App_Estiven.iOS\bin\iPhone\Debug\Refit.HttpClientFactory.dll
+C:\APP_XAMARIN_2\Mobile_App_Estiven\Mobile_App_Estiven.iOS\bin\iPhone\Debug\Refit.Newtonsoft.Json.dll
+C:\APP_XAMARIN_2\Mobile_App_Estiven\Mobile_App_Estiven.iOS\bin\iPhone\Debug\System.Buffers.dll
+C:\APP_XAMARIN_2\Mobile_App_Estiven\Mobile_App_Estiven.iOS\bin\iPhone\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\APP_XAMARIN_2\Mobile_App_Estiven\Mobile_App_Estiven.iOS\bin\iPhone\Debug\System.Memory.dll
+C:\APP_XAMARIN_2\Mobile_App_Estiven\Mobile_App_Estiven.iOS\bin\iPhone\Debug\System.Net.Http.Json.dll
+C:\APP_XAMARIN_2\Mobile_App_Estiven\Mobile_App_Estiven.iOS\bin\iPhone\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\APP_XAMARIN_2\Mobile_App_Estiven\Mobile_App_Estiven.iOS\bin\iPhone\Debug\System.Text.Encodings.Web.dll
+C:\APP_XAMARIN_2\Mobile_App_Estiven\Mobile_App_Estiven.iOS\bin\iPhone\Debug\System.Text.Json.dll
+C:\APP_XAMARIN_2\Mobile_App_Estiven\Mobile_App_Estiven.iOS\bin\iPhone\Debug\Xamarin.CommunityToolkit.dll
+C:\APP_XAMARIN_2\Mobile_App_Estiven\Mobile_App_Estiven.iOS\bin\iPhone\Debug\Xamarin.Essentials.dll
+C:\APP_XAMARIN_2\Mobile_App_Estiven\Mobile_App_Estiven.iOS\bin\iPhone\Debug\Xamarin.Essentials.pdb
+C:\APP_XAMARIN_2\Mobile_App_Estiven\Mobile_App_Estiven.iOS\bin\iPhone\Debug\Xamarin.Forms.Core.dll
+C:\APP_XAMARIN_2\Mobile_App_Estiven\Mobile_App_Estiven.iOS\bin\iPhone\Debug\Xamarin.Forms.Core.pdb
+C:\APP_XAMARIN_2\Mobile_App_Estiven\Mobile_App_Estiven.iOS\bin\iPhone\Debug\Xamarin.Forms.Platform.dll
+C:\APP_XAMARIN_2\Mobile_App_Estiven\Mobile_App_Estiven.iOS\bin\iPhone\Debug\Xamarin.Forms.Platform.iOS.dll
+C:\APP_XAMARIN_2\Mobile_App_Estiven\Mobile_App_Estiven.iOS\bin\iPhone\Debug\Xamarin.Forms.Platform.iOS.pdb
+C:\APP_XAMARIN_2\Mobile_App_Estiven\Mobile_App_Estiven.iOS\bin\iPhone\Debug\Xamarin.Forms.Xaml.dll
+C:\APP_XAMARIN_2\Mobile_App_Estiven\Mobile_App_Estiven.iOS\bin\iPhone\Debug\Xamarin.Forms.Xaml.pdb
+C:\APP_XAMARIN_2\Mobile_App_Estiven\Mobile_App_Estiven.iOS\bin\iPhone\Debug\ar\Xamarin.Forms.Platform.iOS.resources.dll
+C:\APP_XAMARIN_2\Mobile_App_Estiven\Mobile_App_Estiven.iOS\bin\iPhone\Debug\ca\Xamarin.Forms.Platform.iOS.resources.dll
+C:\APP_XAMARIN_2\Mobile_App_Estiven\Mobile_App_Estiven.iOS\bin\iPhone\Debug\cs\Xamarin.Forms.Platform.iOS.resources.dll
+C:\APP_XAMARIN_2\Mobile_App_Estiven\Mobile_App_Estiven.iOS\bin\iPhone\Debug\da\Xamarin.Forms.Platform.iOS.resources.dll
+C:\APP_XAMARIN_2\Mobile_App_Estiven\Mobile_App_Estiven.iOS\bin\iPhone\Debug\de\Xamarin.Forms.Platform.iOS.resources.dll
+C:\APP_XAMARIN_2\Mobile_App_Estiven\Mobile_App_Estiven.iOS\bin\iPhone\Debug\el\Xamarin.Forms.Platform.iOS.resources.dll
+C:\APP_XAMARIN_2\Mobile_App_Estiven\Mobile_App_Estiven.iOS\bin\iPhone\Debug\es\Xamarin.Forms.Platform.iOS.resources.dll
+C:\APP_XAMARIN_2\Mobile_App_Estiven\Mobile_App_Estiven.iOS\bin\iPhone\Debug\fi\Xamarin.Forms.Platform.iOS.resources.dll
+C:\APP_XAMARIN_2\Mobile_App_Estiven\Mobile_App_Estiven.iOS\bin\iPhone\Debug\fr\Xamarin.Forms.Platform.iOS.resources.dll
+C:\APP_XAMARIN_2\Mobile_App_Estiven\Mobile_App_Estiven.iOS\bin\iPhone\Debug\he\Xamarin.Forms.Platform.iOS.resources.dll
+C:\APP_XAMARIN_2\Mobile_App_Estiven\Mobile_App_Estiven.iOS\bin\iPhone\Debug\hi\Xamarin.Forms.Platform.iOS.resources.dll
+C:\APP_XAMARIN_2\Mobile_App_Estiven\Mobile_App_Estiven.iOS\bin\iPhone\Debug\hr\Xamarin.Forms.Platform.iOS.resources.dll
+C:\APP_XAMARIN_2\Mobile_App_Estiven\Mobile_App_Estiven.iOS\bin\iPhone\Debug\hu\Xamarin.Forms.Platform.iOS.resources.dll
+C:\APP_XAMARIN_2\Mobile_App_Estiven\Mobile_App_Estiven.iOS\bin\iPhone\Debug\id\Xamarin.Forms.Platform.iOS.resources.dll
+C:\APP_XAMARIN_2\Mobile_App_Estiven\Mobile_App_Estiven.iOS\bin\iPhone\Debug\it\Xamarin.Forms.Platform.iOS.resources.dll
+C:\APP_XAMARIN_2\Mobile_App_Estiven\Mobile_App_Estiven.iOS\bin\iPhone\Debug\ja\Xamarin.Forms.Platform.iOS.resources.dll
+C:\APP_XAMARIN_2\Mobile_App_Estiven\Mobile_App_Estiven.iOS\bin\iPhone\Debug\ko\Xamarin.Forms.Platform.iOS.resources.dll
+C:\APP_XAMARIN_2\Mobile_App_Estiven\Mobile_App_Estiven.iOS\bin\iPhone\Debug\ms\Xamarin.Forms.Platform.iOS.resources.dll
+C:\APP_XAMARIN_2\Mobile_App_Estiven\Mobile_App_Estiven.iOS\bin\iPhone\Debug\nb\Xamarin.Forms.Platform.iOS.resources.dll
+C:\APP_XAMARIN_2\Mobile_App_Estiven\Mobile_App_Estiven.iOS\bin\iPhone\Debug\nl\Xamarin.Forms.Platform.iOS.resources.dll
+C:\APP_XAMARIN_2\Mobile_App_Estiven\Mobile_App_Estiven.iOS\bin\iPhone\Debug\pl\Xamarin.Forms.Platform.iOS.resources.dll
+C:\APP_XAMARIN_2\Mobile_App_Estiven\Mobile_App_Estiven.iOS\bin\iPhone\Debug\pt-BR\Xamarin.Forms.Platform.iOS.resources.dll
+C:\APP_XAMARIN_2\Mobile_App_Estiven\Mobile_App_Estiven.iOS\bin\iPhone\Debug\pt\Xamarin.Forms.Platform.iOS.resources.dll
+C:\APP_XAMARIN_2\Mobile_App_Estiven\Mobile_App_Estiven.iOS\bin\iPhone\Debug\ro\Xamarin.Forms.Platform.iOS.resources.dll
+C:\APP_XAMARIN_2\Mobile_App_Estiven\Mobile_App_Estiven.iOS\bin\iPhone\Debug\ru\Xamarin.Forms.Platform.iOS.resources.dll
+C:\APP_XAMARIN_2\Mobile_App_Estiven\Mobile_App_Estiven.iOS\bin\iPhone\Debug\sk\Xamarin.Forms.Platform.iOS.resources.dll
+C:\APP_XAMARIN_2\Mobile_App_Estiven\Mobile_App_Estiven.iOS\bin\iPhone\Debug\sv\Xamarin.Forms.Platform.iOS.resources.dll
+C:\APP_XAMARIN_2\Mobile_App_Estiven\Mobile_App_Estiven.iOS\bin\iPhone\Debug\th\Xamarin.Forms.Platform.iOS.resources.dll
+C:\APP_XAMARIN_2\Mobile_App_Estiven\Mobile_App_Estiven.iOS\bin\iPhone\Debug\tr\Xamarin.Forms.Platform.iOS.resources.dll
+C:\APP_XAMARIN_2\Mobile_App_Estiven\Mobile_App_Estiven.iOS\bin\iPhone\Debug\uk\Xamarin.Forms.Platform.iOS.resources.dll
+C:\APP_XAMARIN_2\Mobile_App_Estiven\Mobile_App_Estiven.iOS\bin\iPhone\Debug\vi\Xamarin.Forms.Platform.iOS.resources.dll
+C:\APP_XAMARIN_2\Mobile_App_Estiven\Mobile_App_Estiven.iOS\bin\iPhone\Debug\zh-HK\Xamarin.Forms.Platform.iOS.resources.dll
+C:\APP_XAMARIN_2\Mobile_App_Estiven\Mobile_App_Estiven.iOS\bin\iPhone\Debug\zh-Hans\Xamarin.Forms.Platform.iOS.resources.dll
+C:\APP_XAMARIN_2\Mobile_App_Estiven\Mobile_App_Estiven.iOS\bin\iPhone\Debug\zh-Hant\Xamarin.Forms.Platform.iOS.resources.dll
+C:\APP_XAMARIN_2\Mobile_App_Estiven\Mobile_App_Estiven.iOS\bin\iPhone\Debug\Mobile_App_Estiven.dll
+C:\APP_XAMARIN_2\Mobile_App_Estiven\Mobile_App_Estiven.iOS\bin\iPhone\Debug\Mobile_App_Estiven.pdb
+C:\APP_XAMARIN_2\Mobile_App_Estiven\Mobile_App_Estiven.iOS\obj\iPhone\Debug\actool\_PartialAppManifest.items
+C:\APP_XAMARIN_2\Mobile_App_Estiven\Mobile_App_Estiven.iOS\obj\iPhone\Debug\actool\_BundleResourceWithLogicalName.items
+C:\APP_XAMARIN_2\Mobile_App_Estiven\Mobile_App_Estiven.iOS\obj\iPhone\Debug\actool\_ProcessedImageAssetsPath.items
+C:\APP_XAMARIN_2\Mobile_App_Estiven\Mobile_App_Estiven.iOS\obj\iPhone\Debug\ibtool\_BundleResourceWithLogicalName.items
+C:\APP_XAMARIN_2\Mobile_App_Estiven\Mobile_App_Estiven.iOS\obj\iPhone\Debug\ibtool\_ProcessedInterfaceDefinitionsPath.items
+C:\APP_XAMARIN_2\Mobile_App_Estiven\Mobile_App_Estiven.iOS\obj\iPhone\Debug\coremlc\_PartialAppManifest.items
+C:\APP_XAMARIN_2\Mobile_App_Estiven\Mobile_App_Estiven.iOS\obj\iPhone\Debug\coremlc\_BundleResourceWithLogicalName.items
+C:\APP_XAMARIN_2\Mobile_App_Estiven\Mobile_App_Estiven.iOS\obj\iPhone\Debug\coremlc\_ProcessedCoreMLModelsPath.items
+C:\APP_XAMARIN_2\Mobile_App_Estiven\Mobile_App_Estiven.iOS\obj\iPhone\Debug\_ProcessedBundleResourcesPath.items
+C:\APP_XAMARIN_2\Mobile_App_Estiven\Mobile_App_Estiven.iOS\obj\iPhone\Debug\_ProcessedContentPath.items
+C:\APP_XAMARIN_2\Mobile_App_Estiven\Mobile_App_Estiven.iOS\obj\iPhone\Debug\optimized\
+C:\APP_XAMARIN_2\Mobile_App_Estiven\Mobile_App_Estiven.iOS\obj\iPhone\Debug\Mobile_App_Estiven.iOS.csproj.AssemblyReference.cache
+C:\APP_XAMARIN_2\Mobile_App_Estiven\Mobile_App_Estiven.iOS\obj\iPhone\Debug\Mobile_App_Estiven.iOS.GeneratedMSBuildEditorConfig.editorconfig
+C:\APP_XAMARIN_2\Mobile_App_Estiven\Mobile_App_Estiven.iOS\obj\iPhone\Debug\Mobile_App_Estiven.iOS.csproj.CoreCompileInputs.cache
+C:\APP_XAMARIN_2\Mobile_App_Estiven\Mobile_App_Estiven.iOS\obj\iPhone\Debug\Mobile_App_Estiven.iOS.csproj.CopyComplete
+C:\APP_XAMARIN_2\Mobile_App_Estiven\Mobile_App_Estiven.iOS\obj\iPhone\Debug\Mobile_App_Estiven.iOS.exe
+C:\APP_XAMARIN_2\Mobile_App_Estiven\Mobile_App_Estiven.iOS\obj\iPhone\Debug\Mobile_App_Estiven.iOS.pdb

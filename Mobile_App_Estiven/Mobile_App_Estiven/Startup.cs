@@ -1,8 +1,8 @@
 ﻿using Autofac;
 using Autofac.Extensions.DependencyInjection;
+using Microsoft.Extensions.DependencyInjection;
 using Mobile_App_Estiven.Data.API;
 using Mobile_App_Estiven.Helpers.HttpMessageHandlers;
-using Microsoft.Extensions.DependencyInjection;
 using Mobile_App_Estiven;
 using Newtonsoft.Json;
 using Refit;
@@ -12,11 +12,11 @@ using Xamarin.Forms.Internals;
 
 namespace Mobile_App_Estiven
 {
-    internal class Startup
+    public static class Startup
     {
         private const string INTERFACE_PREFIX = "I";
         private const string SERVICES_NAMESPACE = "Mobile_App_Estiven.Services";
-        //private const string SINGLE_INSTANCE_SERVICES_NAMESPACE = "ExampleApp.Services.SingleInstance";
+        //private const string SINGLE_INSTANCE_SERVICES_NAMESPACE = "Mobile_App_Estiven.Services.SingleInstance";
         private const string VIEW_MODELS_NAMESPACE = "Mobile_App_Estiven.ViewModels";
 
         private static IContainer _container;
@@ -74,5 +74,3 @@ namespace Mobile_App_Estiven
         public static T Resolve<T>() => _container.Resolve<T>();
     }
 }
-
-

@@ -4706,11 +4706,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Curso Xamarin\\APP_XAMARIN\\Mobile_App_Estiven\\Mobile_App_Estiven.Android\\Mobile_App_Estiven.Android.csproj",
+      "projectUniqueName": "C:\\APP_XAMARIN_2\\Mobile_App_Estiven\\Mobile_App_Estiven.Android\\Mobile_App_Estiven.Android.csproj",
       "projectName": "Mobile_App_Estiven.Android",
-      "projectPath": "C:\\Curso Xamarin\\APP_XAMARIN\\Mobile_App_Estiven\\Mobile_App_Estiven.Android\\Mobile_App_Estiven.Android.csproj",
+      "projectPath": "C:\\APP_XAMARIN_2\\Mobile_App_Estiven\\Mobile_App_Estiven.Android\\Mobile_App_Estiven.Android.csproj",
       "packagesPath": "C:\\Users\\jmoreno\\.nuget\\packages\\",
-      "outputPath": "C:\\Curso Xamarin\\APP_XAMARIN\\Mobile_App_Estiven\\Mobile_App_Estiven.Android\\obj\\",
+      "outputPath": "C:\\APP_XAMARIN_2\\Mobile_App_Estiven\\Mobile_App_Estiven.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -4733,8 +4733,8 @@
       "frameworks": {
         "monoandroid13.0": {
           "projectReferences": {
-            "C:\\Curso Xamarin\\APP_XAMARIN\\Mobile_App_Estiven\\Mobile_App_Estiven\\Mobile_App_Estiven.csproj": {
-              "projectPath": "C:\\Curso Xamarin\\APP_XAMARIN\\Mobile_App_Estiven\\Mobile_App_Estiven\\Mobile_App_Estiven.csproj"
+            "C:\\APP_XAMARIN_2\\Mobile_App_Estiven\\Mobile_App_Estiven\\Mobile_App_Estiven.csproj": {
+              "projectPath": "C:\\APP_XAMARIN_2\\Mobile_App_Estiven\\Mobile_App_Estiven\\Mobile_App_Estiven.csproj"
             }
           }
         }
@@ -4747,21 +4747,9 @@
             "target": "Package",
             "version": "[7.0.1, )"
           },
-          "Autofac": {
-            "target": "Package",
-            "version": "[7.0.1, )"
-          },
           "Autofac.Extensions.DependencyInjection": {
             "target": "Package",
             "version": "[8.0.0, )"
-          },
-          "Autofac.Extensions.DependencyInjection": {
-            "target": "Package",
-            "version": "[8.0.0, )"
-          },
-          "NETStandard.Library": {
-            "target": "Package",
-            "version": "[2.0.3, )"
           },
           "NETStandard.Library": {
             "target": "Package",
@@ -4771,19 +4759,7 @@
             "target": "Package",
             "version": "[13.0.3, )"
           },
-          "Newtonsoft.Json": {
-            "target": "Package",
-            "version": "[13.0.3, )"
-          },
           "Refit": {
-            "target": "Package",
-            "version": "[7.0.0, )"
-          },
-          "Refit": {
-            "target": "Package",
-            "version": "[7.0.0, )"
-          },
-          "Refit.HttpClientFactory": {
             "target": "Package",
             "version": "[7.0.0, )"
           },
@@ -4795,14 +4771,6 @@
             "target": "Package",
             "version": "[7.0.0, )"
           },
-          "Refit.Newtonsoft.Json": {
-            "target": "Package",
-            "version": "[7.0.0, )"
-          },
-          "Xamarin.CommunityToolkit": {
-            "target": "Package",
-            "version": "[2.0.6, )"
-          },
           "Xamarin.CommunityToolkit": {
             "target": "Package",
             "version": "[2.0.6, )"
@@ -4810,14 +4778,6 @@
           "Xamarin.Essentials": {
             "target": "Package",
             "version": "[1.7.7, )"
-          },
-          "Xamarin.Essentials": {
-            "target": "Package",
-            "version": "[1.7.7, )"
-          },
-          "Xamarin.Forms": {
-            "target": "Package",
-            "version": "[5.0.0.2578, )"
           },
           "Xamarin.Forms": {
             "target": "Package",
