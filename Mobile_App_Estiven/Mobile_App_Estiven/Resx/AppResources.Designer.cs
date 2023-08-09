@@ -59,5 +59,32 @@ namespace Mobile_App_Estiven.Resx {
                 resourceCulture = value;
             }
         }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a We are unable to login this time, please check the user/pass.
+        /// </summary>
+        internal static string LoginPageInvalidLoginMessage {
+            get {
+                return ResourceManager.GetString("LoginPageInvalidLoginMessage", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Unable to login.
+        /// </summary>
+        internal static string LoginPageInvalidLoginTitle {
+            get {
+                return ResourceManager.GetString("LoginPageInvalidLoginTitle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Ok.
+        /// </summary>
+        internal static string OkText {
+            get {
+                return ResourceManager.GetString("OkText", resourceCulture);
+            }
+        }
     }
 }

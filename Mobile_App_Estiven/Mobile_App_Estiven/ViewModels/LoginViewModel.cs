@@ -1,4 +1,5 @@
-﻿using Mobile_App_Estiven.Views;
+﻿using Mobile_App_Estiven.Resx;
+using Mobile_App_Estiven.Views;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -17,42 +18,42 @@ namespace Mobile_App_Estiven.ViewModels
         public string Username { get => _username; set => SetProperty(ref _username, value); }
 
         public string Password { get => _password; set => SetProperty(ref _password, value); }
-        public string MessageColor
-        {
-            get => _messageColor;
-            set
-            {
-                if (_messageColor != value)
-                {
-                    _messageColor = value;
-                    OnPropertyChanged();
-                }
-            }
-        }
-        public bool ShowMessage
-        {
-            get => _showMessage;
-            set
-            {
-                if (_showMessage != value)
-                {
-                    _showMessage = value;
-                    OnPropertyChanged();
-                }
-            }
-        }
-        public string WelcomeMessage
-        {
-            get => _welcomeMessage;
-            set
-            {
-                if (_welcomeMessage != value)
-                {
-                    _welcomeMessage = value;
-                    OnPropertyChanged();
-                }
-            }
-        }
+        //public string MessageColor
+        //{
+        //    get => _messageColor;
+        //    set
+        //    {
+        //        if (_messageColor != value)
+        //        {
+        //            _messageColor = value;
+        //            OnPropertyChanged();
+        //        }
+        //    }
+        //}
+        //public bool ShowMessage
+        //{
+        //    get => _showMessage;
+        //    set
+        //    {
+        //        if (_showMessage != value)
+        //        {
+        //            _showMessage = value;
+        //            OnPropertyChanged();
+        //        }
+        //    }
+        //}
+        //public string WelcomeMessage
+        //{
+        //    get => _welcomeMessage;
+        //    set
+        //    {
+        //        if (_welcomeMessage != value)
+        //        {
+        //            _welcomeMessage = value;
+        //            OnPropertyChanged();
+        //        }
+        //    }
+        //}
         public Command LoginCommand { get; }
 
         public string UserName { get; set; }
@@ -69,18 +70,22 @@ namespace Mobile_App_Estiven.ViewModels
             {
                 await Shell.Current.GoToAsync($"//{nameof(ClientsPage)}");
             }
-        }
-            private bool ValidateFiels()
-        {
-            if (!string.IsNullOrEmpty(Username) && !string.IsNullOrEmpty(Password))
-            {
-                return true;
-            }
             else
             {
-                return false;
+                await Application.Current.MainPage.DisplayAlert(AppResources.LoginPageInvalidLoginTitle,
+                    AppResources.LoginPageInvalidLoginMessage, AppResources.OkText);
             }
         }
+            private bool ValidateFiels()
+            {
+                if (string.IsNullOrEmpty(UserName) || string.IsNullOrEmpty(Password))
+                {
+                    return false;
+                }
+                return true;
+                
+            }
 
     }
-}
+} 
+

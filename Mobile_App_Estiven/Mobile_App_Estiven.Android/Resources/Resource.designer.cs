@@ -22236,7 +22236,7 @@ namespace Mobile_App_Estiven.Droid
 			public const int preference_list_divider_material = 2131165327;
 			
 			// aapt resource value: 0x7F070090
-			public const int progress = 2131165328;
+			public const int splash = 2131165328;
 			
 			// aapt resource value: 0x7F070091
 			public const int test_custom_background = 2131165329;
@@ -22248,10 +22248,7 @@ namespace Mobile_App_Estiven.Droid
 			public const int tooltip_frame_light = 2131165331;
 			
 			// aapt resource value: 0x7F070094
-			public const int welcome = 2131165332;
-			
-			// aapt resource value: 0x7F070095
-			public const int xamarin_logo = 2131165333;
+			public const int xamarin_logo = 2131165332;
 			
 			static Drawable()
 			{

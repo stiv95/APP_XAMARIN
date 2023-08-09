@@ -68,7 +68,7 @@ C:\APP_XAMARIN_2\Mobile_App_Estiven\Mobile_App_Estiven.Android\obj\Debug\130\res
 C:\APP_XAMARIN_2\Mobile_App_Estiven\Mobile_App_Estiven.Android\obj\Debug\130\res\drawable\icon_about.png
 C:\APP_XAMARIN_2\Mobile_App_Estiven\Mobile_App_Estiven.Android\obj\Debug\130\res\drawable\icon_feed.png
 C:\APP_XAMARIN_2\Mobile_App_Estiven\Mobile_App_Estiven.Android\obj\Debug\130\res\drawable\login.png
-C:\APP_XAMARIN_2\Mobile_App_Estiven\Mobile_App_Estiven.Android\obj\Debug\130\res\drawable\welcome.jpg
+C:\APP_XAMARIN_2\Mobile_App_Estiven\Mobile_App_Estiven.Android\obj\Debug\130\res\drawable\splash.png
 C:\APP_XAMARIN_2\Mobile_App_Estiven\Mobile_App_Estiven.Android\obj\Debug\130\uploadflags.txt
 C:\APP_XAMARIN_2\Mobile_App_Estiven\Mobile_App_Estiven.Android\obj\Debug\130\resolvedassemblies.hash
 C:\APP_XAMARIN_2\Mobile_App_Estiven\Mobile_App_Estiven.Android\obj\Debug\130\android\assets\Autofac.dll
@@ -704,4 +704,3 @@ C:\APP_XAMARIN_2\Mobile_App_Estiven\Mobile_App_Estiven.Android\obj\Debug\130\sta
 C:\APP_XAMARIN_2\Mobile_App_Estiven\Mobile_App_Estiven.Android\obj\Debug\130\stamp\_GenerateJavaStubs.stamp
 C:\APP_XAMARIN_2\Mobile_App_Estiven\Mobile_App_Estiven.Android\obj\Debug\130\stamp\_GeneratePackageManagerJava.stamp
 C:\APP_XAMARIN_2\Mobile_App_Estiven\Mobile_App_Estiven.Android\obj\Debug\130\stamp\_ResolveLibraryProjectImports.stamp
-C:\APP_XAMARIN_2\Mobile_App_Estiven\Mobile_App_Estiven.Android\obj\Debug\130\res\drawable\progress.gif
