@@ -1,5 +1,4 @@
-﻿using Mobile_App_Estiven.Services;
-using Mobile_App_Estiven.Views;
+﻿using Mobile_App_Estiven.Views;
 using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
@@ -12,8 +11,7 @@ namespace Mobile_App_Estiven
         public App()
         {
             InitializeComponent();
-
-            DependencyService.Register<MockDataStore>();
+            Startup.Initialize();
             MainPage = new AppShell();
         }
 

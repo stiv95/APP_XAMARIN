@@ -15,7 +15,6 @@ namespace Mobile_App_Estiven.Views
         public LoginPage()
         {
             InitializeComponent();
-            this.BindingContext = new LoginViewModel();
         }
     }
 }

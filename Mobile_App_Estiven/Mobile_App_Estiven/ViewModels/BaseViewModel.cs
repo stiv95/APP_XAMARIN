@@ -1,5 +1,4 @@
 ﻿using Mobile_App_Estiven.Models;
-using Mobile_App_Estiven.Services;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -10,7 +9,7 @@ namespace Mobile_App_Estiven.ViewModels
 {
     public class BaseViewModel : INotifyPropertyChanged
     {
-        public IDataStore<Item> DataStore => DependencyService.Get<IDataStore<Item>>();
+
 
         bool isBusy = false;
         public bool IsBusy

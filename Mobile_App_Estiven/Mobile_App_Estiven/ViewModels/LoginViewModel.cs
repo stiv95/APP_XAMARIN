@@ -12,33 +12,12 @@ namespace Mobile_App_Estiven.ViewModels
         private string _password;
         private bool _showMessage;
         private string _welcomeMessage;
-        private Color _messageColor;
+        private string _messageColor;
 
-        public string Username
-        {
-            get => _username;
-            set
-            {
-                if (_username != value)
-                {
-                    _username = value;
-                    OnPropertyChanged();
-                }
-            }
-        }
-        public string Password
-        {
-            get => _password;
-            set
-            {
-                if (_password != value)
-                {
-                    _password = value;
-                    OnPropertyChanged();
-                }
-            }
-        }
-        public Color MessageColor
+        public string Username { get => _username; set => SetProperty(ref _username, value); }
+
+        public string Password { get => _password; set => SetProperty(ref _password, value); }
+        public string MessageColor
         {
             get => _messageColor;
             set
@@ -88,22 +67,10 @@ namespace Mobile_App_Estiven.ViewModels
         {
             if (ValidateFiels())
             {
-                //await Shell.Current.GoToAsync($"//{nameof(AboutPage)}");
-                if (Username == "stivmoar" && Password == "1234567")
-                {
-                    WelcomeMessage = "Inicio de sesión exitoso"+ Environment.NewLine + "¡Bienvenido! " + Username;
-                    MessageColor = Color.Green;
-                    await Shell.Current.GoToAsync($"//{nameof(AboutPage)}");
-                }
-                else
-                {
-                    ShowMessage = true;
-                    MessageColor = Color.Red;
-                    WelcomeMessage = "Usuario o contraseña incorrectos";
-                }
+                await Shell.Current.GoToAsync($"//{nameof(ClientsPage)}");
             }
         }
-        private bool ValidateFiels()
+            private bool ValidateFiels()
         {
             if (!string.IsNullOrEmpty(Username) && !string.IsNullOrEmpty(Password))
             {
