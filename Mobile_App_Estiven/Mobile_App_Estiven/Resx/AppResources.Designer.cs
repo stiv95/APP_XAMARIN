@@ -79,6 +79,24 @@ namespace Mobile_App_Estiven.Resx {
         }
         
         /// <summary>
+        ///   Busca una cadena traducida similar a Password.
+        /// </summary>
+        internal static string LoginPagePasswordText {
+            get {
+                return ResourceManager.GetString("LoginPagePasswordText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a UserName.
+        /// </summary>
+        internal static string LoginPageUserNameText {
+            get {
+                return ResourceManager.GetString("LoginPageUserNameText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Busca una cadena traducida similar a Ok.
         /// </summary>
         internal static string OkText {

@@ -123,6 +123,12 @@
   <data name="LoginPageInvalidLoginTitle" xml:space="preserve">
     <value>Unable to login</value>
   </data>
+  <data name="LoginPagePasswordText" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="LoginPageUserNameText" xml:space="preserve">
+    <value>UserName</value>
+  </data>
   <data name="OkText" xml:space="preserve">
     <value>Ok</value>
   </data>
