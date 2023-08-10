@@ -153,6 +153,10 @@
               "target": "Package",
               "version": "[8.0.0, )"
             },
+            "Microsoft.VisualStudio.Services.Client": {
+              "target": "Package",
+              "version": "[16.205.1, )"
+            },
             "NETStandard.Library": {
               "suppressParent": "All",
               "target": "Package",

@@ -4,11 +4,11 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              xmlns:ViewModels="clr-namespace:Mobile_App_Estiven.ViewModels"
-             xmlns:local="clr-namespace:Mobile_App_Estiven;assembly=Mobile_App_Estiven"
                xmlns:helpers="clr-namespace:Mobile_App_Estiven.Helpers"
              xmlns:resx="clr-namespace:Mobile_App_Estiven.Resx"
              helpers:ViewModelLocator.AutoWireViewModel="True"
              x:DataType="ViewModels:LoginViewModel"
+             xmlns:local="clr-namespace:Mobile_App_Estiven;assembly=Mobile_App_Estiven"
              mc:Ignorable="d"
              x:Class="Mobile_App_Estiven.Views.LoginPage"
              Shell.NavBarIsVisible="False">
@@ -16,8 +16,8 @@
         <StackLayout Padding="10,0,10,0" VerticalOptions="Center" HorizontalOptions="FillAndExpand">
 
             <Image Source="{local:ImageResourcesExtensions Mobile_App_Estiven.Resources.Images.login.png}" HeightRequest="150" Margin="15"/>
-            <Entry Text="{Binding Username}" Placeholder="{Static resx:AppResource.LoginPageUserNameText}" TextColor="Black"/>
-            <Entry Text="{Binding Password}" Placeholder="{Static resx:AppResource.LoginPagePasswordText}" IsPassword="True" TextColor="Black"/>
+            <Entry Text="{Binding UserName}" Placeholder="{Static resx:AppResources.LoginPageUserNameText}" TextColor="Black"/>
+            <Entry Text="{Binding Password}" Placeholder="{Static resx:AppResources.LoginPagePasswordText}" IsPassword="True" TextColor="Black"/>
             <Button VerticalOptions="Center" Text="Login" CornerRadius="50" Command="{Binding LoginCommand}"/>
            
             
