@@ -15,13 +15,11 @@
     <ContentPage.Content>
         <StackLayout Padding="10,0,10,0" VerticalOptions="Center" HorizontalOptions="FillAndExpand">
 
-            <Image Source="{local:ImageResourcesExtensions Mobile_App_Estiven.Resources.Images.login.png}" HeightRequest="150" Margin="15"/>
+            <Image Source="{local:ImageResourcesExtensions  Mobile_App_Estiven.Resources.Images.login.png}" HeightRequest="150" Margin="15"/>
             <Entry Text="{Binding UserName}" Placeholder="{Static resx:AppResources.LoginPageUserNameText}" TextColor="Black"/>
             <Entry Text="{Binding Password}" Placeholder="{Static resx:AppResources.LoginPagePasswordText}" IsPassword="True" TextColor="Black"/>
             <Button VerticalOptions="Center" Text="Login" CornerRadius="50" Command="{Binding LoginCommand}"/>
-           
             
-
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

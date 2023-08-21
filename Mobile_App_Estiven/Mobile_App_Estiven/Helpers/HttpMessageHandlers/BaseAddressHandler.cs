@@ -5,7 +5,6 @@ using Mobile_App_Estiven.Services;
 using System.Net.Http.Headers;
 
 
-
 namespace Mobile_App_Estiven.Helpers.HttpMessageHandlers
 {
     public class BaseAddressHandler : DelegatingHandler

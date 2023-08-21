@@ -15,7 +15,9 @@ namespace Mobile_App_Estiven
 
         private async void OnMenuItemClicked(object sender, EventArgs e)
         {
+            
             await Shell.Current.GoToAsync("//LoginPage");
+
         }
     }
 }

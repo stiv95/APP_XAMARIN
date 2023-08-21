@@ -32,7 +32,9 @@ namespace Mobile_App_Estiven.ViewModels
         {
             if (ValidateFiels() && await _accountService.LoginAsync(UserName, Password))
             {
-                await Shell.Current.GoToAsync($"//{nameof(ClientsPage)}");
+                await Shell.Current.GoToAsync($"//{nameof(CrearPage)}");
+                
+
             }
             else
             {

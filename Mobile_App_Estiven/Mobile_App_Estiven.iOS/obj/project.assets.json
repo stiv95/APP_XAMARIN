@@ -617,7 +617,7 @@
           }
         }
       },
-      "Xamarin.Forms/5.0.0.2578": {
+      "Xamarin.Forms/5.0.0.2612": {
         "type": "package",
         "compile": {
           "lib/Xamarin.iOS10/Xamarin.Forms.Core.dll": {
@@ -758,7 +758,7 @@
       },
       "Mobile_App_Estiven/1.0.0": {
         "type": "project",
-        "framework": ".NETStandard,Version=v2.0",
+        "framework": ".NETStandard,Version=v2.1",
         "dependencies": {
           "Autofac": "7.0.1",
           "Autofac.Extensions.DependencyInjection": "8.0.0",
@@ -769,7 +769,7 @@
           "Refit.Newtonsoft.Json": "7.0.0",
           "Xamarin.CommunityToolkit": "2.0.6",
           "Xamarin.Essentials": "1.7.7",
-          "Xamarin.Forms": "5.0.0.2578"
+          "Xamarin.Forms": "5.0.0.2612"
         },
         "compile": {
           "bin/placeholder/Mobile_App_Estiven.dll": {}
@@ -1361,7 +1361,7 @@
           }
         }
       },
-      "Xamarin.Forms/5.0.0.2578": {
+      "Xamarin.Forms/5.0.0.2612": {
         "type": "package",
         "compile": {
           "lib/Xamarin.iOS10/Xamarin.Forms.Core.dll": {
@@ -1502,7 +1502,7 @@
       },
       "Mobile_App_Estiven/1.0.0": {
         "type": "project",
-        "framework": ".NETStandard,Version=v2.0",
+        "framework": ".NETStandard,Version=v2.1",
         "dependencies": {
           "Autofac": "7.0.1",
           "Autofac.Extensions.DependencyInjection": "8.0.0",
@@ -1513,7 +1513,7 @@
           "Refit.Newtonsoft.Json": "7.0.0",
           "Xamarin.CommunityToolkit": "2.0.6",
           "Xamarin.Essentials": "1.7.7",
-          "Xamarin.Forms": "5.0.0.2578"
+          "Xamarin.Forms": "5.0.0.2612"
         },
         "compile": {
           "bin/placeholder/Mobile_App_Estiven.dll": {}
@@ -2105,7 +2105,7 @@
           }
         }
       },
-      "Xamarin.Forms/5.0.0.2578": {
+      "Xamarin.Forms/5.0.0.2612": {
         "type": "package",
         "compile": {
           "lib/Xamarin.iOS10/Xamarin.Forms.Core.dll": {
@@ -2246,7 +2246,7 @@
       },
       "Mobile_App_Estiven/1.0.0": {
         "type": "project",
-        "framework": ".NETStandard,Version=v2.0",
+        "framework": ".NETStandard,Version=v2.1",
         "dependencies": {
           "Autofac": "7.0.1",
           "Autofac.Extensions.DependencyInjection": "8.0.0",
@@ -2257,7 +2257,7 @@
           "Refit.Newtonsoft.Json": "7.0.0",
           "Xamarin.CommunityToolkit": "2.0.6",
           "Xamarin.Essentials": "1.7.7",
-          "Xamarin.Forms": "5.0.0.2578"
+          "Xamarin.Forms": "5.0.0.2612"
         },
         "compile": {
           "bin/placeholder/Mobile_App_Estiven.dll": {}
@@ -2849,7 +2849,7 @@
           }
         }
       },
-      "Xamarin.Forms/5.0.0.2578": {
+      "Xamarin.Forms/5.0.0.2612": {
         "type": "package",
         "compile": {
           "lib/Xamarin.iOS10/Xamarin.Forms.Core.dll": {
@@ -2990,7 +2990,7 @@
       },
       "Mobile_App_Estiven/1.0.0": {
         "type": "project",
-        "framework": ".NETStandard,Version=v2.0",
+        "framework": ".NETStandard,Version=v2.1",
         "dependencies": {
           "Autofac": "7.0.1",
           "Autofac.Extensions.DependencyInjection": "8.0.0",
@@ -3001,7 +3001,7 @@
           "Refit.Newtonsoft.Json": "7.0.0",
           "Xamarin.CommunityToolkit": "2.0.6",
           "Xamarin.Essentials": "1.7.7",
-          "Xamarin.Forms": "5.0.0.2578"
+          "Xamarin.Forms": "5.0.0.2612"
         },
         "compile": {
           "bin/placeholder/Mobile_App_Estiven.dll": {}
@@ -3593,7 +3593,7 @@
           }
         }
       },
-      "Xamarin.Forms/5.0.0.2578": {
+      "Xamarin.Forms/5.0.0.2612": {
         "type": "package",
         "compile": {
           "lib/Xamarin.iOS10/Xamarin.Forms.Core.dll": {
@@ -3734,7 +3734,7 @@
       },
       "Mobile_App_Estiven/1.0.0": {
         "type": "project",
-        "framework": ".NETStandard,Version=v2.0",
+        "framework": ".NETStandard,Version=v2.1",
         "dependencies": {
           "Autofac": "7.0.1",
           "Autofac.Extensions.DependencyInjection": "8.0.0",
@@ -3745,7 +3745,7 @@
           "Refit.Newtonsoft.Json": "7.0.0",
           "Xamarin.CommunityToolkit": "2.0.6",
           "Xamarin.Essentials": "1.7.7",
-          "Xamarin.Forms": "5.0.0.2578"
+          "Xamarin.Forms": "5.0.0.2612"
         },
         "compile": {
           "bin/placeholder/Mobile_App_Estiven.dll": {}
@@ -5082,17 +5082,17 @@
         "xamarin.essentials.nuspec"
       ]
     },
-    "Xamarin.Forms/5.0.0.2578": {
-      "sha512": "cUjv81PVlNKqAYA9k8WV0JZiCxjuCLqpICfaumHeJvEBxo7qUrEIXHCyS9+tAAV1JL/qwzD/FnkdVy8gO9TWrA==",
+    "Xamarin.Forms/5.0.0.2612": {
+      "sha512": "zQcy3NJgRJnLRWQZ2TZPCgDoTDHoYskHLutKDvz1pVNtvJ8U7kkg4mE2XATs3dAkQ+oWoqB4VOBGRk9uAfoRMw==",
       "type": "package",
-      "path": "xamarin.forms/5.0.0.2578",
+      "path": "xamarin.forms/5.0.0.2612",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Assets/xamarin_128x128.png",
         "Licenses/LICENSE",
         "Licenses/THIRD-PARTY-NOTICES.txt",
-        "build/MonoAndroid10/proguard.cfg",
+        "build/MonoAndroid13/proguard.cfg",
         "build/Xamarin.Forms.DefaultItems.props",
         "build/Xamarin.Forms.DefaultItems.targets",
         "build/Xamarin.Forms.props",
@@ -5113,7 +5113,7 @@
         "build/netstandard2.0/Xamarin.Forms.Build.Tasks.dll",
         "build/netstandard2.0/Xamarin.Forms.Core.dll",
         "build/netstandard2.0/Xamarin.Forms.Xaml.dll",
-        "buildTransitive/MonoAndroid10/proguard.cfg",
+        "buildTransitive/MonoAndroid13/proguard.cfg",
         "buildTransitive/Xamarin.Forms.DefaultItems.props",
         "buildTransitive/Xamarin.Forms.DefaultItems.targets",
         "buildTransitive/Xamarin.Forms.props",
@@ -5134,19 +5134,19 @@
         "buildTransitive/netstandard2.0/Xamarin.Forms.Build.Tasks.dll",
         "buildTransitive/netstandard2.0/Xamarin.Forms.Core.dll",
         "buildTransitive/netstandard2.0/Xamarin.Forms.Xaml.dll",
-        "lib/MonoAndroid10.0/Design/Xamarin.Forms.Core.Design.dll",
-        "lib/MonoAndroid10.0/Design/Xamarin.Forms.Xaml.Design.dll",
-        "lib/MonoAndroid10.0/FormsViewGroup.dll",
-        "lib/MonoAndroid10.0/FormsViewGroup.pdb",
-        "lib/MonoAndroid10.0/Xamarin.Forms.Core.dll",
-        "lib/MonoAndroid10.0/Xamarin.Forms.Core.pdb",
-        "lib/MonoAndroid10.0/Xamarin.Forms.Core.xml",
-        "lib/MonoAndroid10.0/Xamarin.Forms.Platform.Android.dll",
-        "lib/MonoAndroid10.0/Xamarin.Forms.Platform.Android.pdb",
-        "lib/MonoAndroid10.0/Xamarin.Forms.Platform.dll",
-        "lib/MonoAndroid10.0/Xamarin.Forms.Xaml.dll",
-        "lib/MonoAndroid10.0/Xamarin.Forms.Xaml.pdb",
-        "lib/MonoAndroid10.0/Xamarin.Forms.Xaml.xml",
+        "lib/MonoAndroid13.0/Design/Xamarin.Forms.Core.Design.dll",
+        "lib/MonoAndroid13.0/Design/Xamarin.Forms.Xaml.Design.dll",
+        "lib/MonoAndroid13.0/FormsViewGroup.dll",
+        "lib/MonoAndroid13.0/FormsViewGroup.pdb",
+        "lib/MonoAndroid13.0/Xamarin.Forms.Core.dll",
+        "lib/MonoAndroid13.0/Xamarin.Forms.Core.pdb",
+        "lib/MonoAndroid13.0/Xamarin.Forms.Core.xml",
+        "lib/MonoAndroid13.0/Xamarin.Forms.Platform.Android.dll",
+        "lib/MonoAndroid13.0/Xamarin.Forms.Platform.Android.pdb",
+        "lib/MonoAndroid13.0/Xamarin.Forms.Platform.dll",
+        "lib/MonoAndroid13.0/Xamarin.Forms.Xaml.dll",
+        "lib/MonoAndroid13.0/Xamarin.Forms.Xaml.pdb",
+        "lib/MonoAndroid13.0/Xamarin.Forms.Xaml.xml",
         "lib/Xamarin.Mac/Design/Xamarin.Forms.Core.Design.dll",
         "lib/Xamarin.Mac/Design/Xamarin.Forms.Xaml.Design.dll",
         "lib/Xamarin.Mac/Xamarin.Forms.Core.dll",
@@ -5296,7 +5296,7 @@
         "lib/uap10.0.16299/Xamarin.Forms.Xaml.dll",
         "lib/uap10.0.16299/Xamarin.Forms.Xaml.pdb",
         "lib/uap10.0.16299/Xamarin.Forms.Xaml.xml",
-        "xamarin.forms.5.0.0.2578.nupkg.sha512",
+        "xamarin.forms.5.0.0.2612.nupkg.sha512",
         "xamarin.forms.nuspec"
       ]
     },
@@ -5318,7 +5318,7 @@
       "Refit.Newtonsoft.Json >= 7.0.0",
       "Xamarin.CommunityToolkit >= 2.0.6",
       "Xamarin.Essentials >= 1.7.7",
-      "Xamarin.Forms >= 5.0.0.2578"
+      "Xamarin.Forms >= 5.0.0.2612"
     ]
   },
   "packageFolders": {
@@ -5404,7 +5404,7 @@
           },
           "Xamarin.Forms": {
             "target": "Package",
-            "version": "[5.0.0.2578, )"
+            "version": "[5.0.0.2612, )"
           }
         }
       }

@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:ViewModels="clr-namespace:Mobile_App_Estiven.ViewModels"
+                xmlns:helpers="clr-namespace:Mobile_App_Estiven.Helpers"
+             xmlns:resx="clr-namespace:Mobile_App_Estiven.Resx"
+             helpers:ViewModelLocator.AutoWireViewModel="True"
+             x:DataType="ViewModels:CrearViewModel"
+             xmlns:local="clr-namespace:Mobile_App_Estiven;assembly=Mobile_App_Estiven"
+             mc:Ignorable="d"
+             x:Class="Mobile_App_Estiven.Views.CrearPage">
+    <ContentPage.Content>
+        <StackLayout Orientation="Vertical" Padding="40,24,40,24" Spacing="10">
+            <Label Text="Bienvenido a List Master" FontSize="30"  HorizontalTextAlignment="Center" TextColor="Black"/>
+            <Label VerticalOptions="Center" FontAttributes="Italic" Text="ListMaster es una aplicacion la cual podras crear listas facilmente de tus compras para mercado, farmacia, mascotas y mucho más!!"  FontSize="20" Padding="0,0,0,0" TextColor="Black"/>
+            <Image Source="{local:ImageResourcesExtensions  Mobile_App_Estiven.Resources.Images.list.png}" HeightRequest="200" Margin="15"/>
+            
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

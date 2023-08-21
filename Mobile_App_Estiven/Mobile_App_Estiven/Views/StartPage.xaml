@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+                 xmlns:local="clr-namespace:Mobile_App_Estiven;assembly=Mobile_App_Estiven"
+             x:Class="Mobile_App_Estiven.Views.StartPages">
+    <ContentPage.Content>
+        <StackLayout Orientation="Vertical" Padding="40,4,40,24" Spacing="10" >
+            <Label Text="¿Qué articulos desea incluir en su lista de compras? " FontSize="24"  HorizontalTextAlignment="Center" TextColor="Black"/>
+            <Entry Placeholder="Nombre Producto"  TextColor="Black"/>
+            <Entry Placeholder="Marca"  TextColor="Black"/>
+            <Entry Placeholder="Cantidad"  Keyboard="Numeric" TextColor="Black"/>
+            <Entry Placeholder="Valor Unitario"  Keyboard="Numeric"  TextColor="Black"/>
+            <Entry Placeholder="Valor total" Keyboard="Numeric" TextColor="Black"/>
+            <Image Source="{local:ImageResourcesExtensions  Mobile_App_Estiven.Resources.Images.image.png}" HeightRequest="130" Margin="15"/>
+            <Button VerticalOptions="Center" Text="Guardar" CornerRadius="50" Command="{Binding LoginCommand}"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
