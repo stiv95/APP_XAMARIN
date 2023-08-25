@@ -34,7 +34,6 @@ namespace Mobile_App_Estiven.ViewModels
             }
         }
 
-
         string title = string.Empty;
         public string Title
         {
@@ -42,7 +41,5 @@ namespace Mobile_App_Estiven.ViewModels
             set { SetProperty(ref title, value); }
         }
 
-
-      
     }
 }

@@ -1,52 +1,35 @@
 ﻿using Mobile_App_Estiven.Data.Models;
-using Mobile_App_Estiven.Resx;
 using Mobile_App_Estiven.Services;
-using Mobile_App_Estiven.Views;
+using Org.W3c.Dom;
 using System;
-using System.Collections.Generic;
-using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Input;
 using Xamarin.CommunityToolkit.ObjectModel;
-using Xamarin.Forms;
-using static Android.Icu.Text.CaseMap;
 
 namespace Mobile_App_Estiven.ViewModels
 {
     public class CrearViewModel : BaseViewModel
     {
+        private readonly IListUserService _listUserService;
 
-        private readonly IClientService _clientService;
-
-        public CrearViewModel(IClientService clientService)
+        public CrearViewModel(IListUserService listUserService)
         {
             AppearingCommand = new AsyncCommand(async () => await OnAppearingAsync());
-            ClientTappedCommand = new AsyncCommand<Client>(OnClientTapped);
+            ListMasterTappedCommand = new AsyncCommand<ListUser>(OnListUserTapped);
 
-            Title = "Clients";
-            _clientService = clientService;
+            Title = "ListUsers";
+            _listUserService = listUserService;
         }
 
-        private Task OnClientTapped(Client client)
+        private Task OnListUserTapped(ListUser user)
         {
             throw new NotImplementedException();
         }
 
-        //private Task OnClientTapped(Client client)
-        //{
-        //    if (client == null)
-        //    {
-        //        return Task.CompletedTask;
-        //    }
-
-        //    return Shell.Current.GoToAsync($"{nameof(ClientPage)}?{nameof(ClientViewModel.ClientId)}={client.Id}");
-        //}
-
-
-        public ObservableRangeCollection<Client> Clients { get; set; } = new ObservableRangeCollection<Client>();
+        public ObservableRangeCollection<ListUser> ListUsers { get; set; } = new ObservableRangeCollection<ListUser>();
 
         public ICommand AppearingCommand { get; set; }
-        public ICommand ClientTappedCommand { get; set; }
+        public ICommand ListMasterTappedCommand { get; set; }
 
 
         private async Task OnAppearingAsync()
@@ -58,11 +41,14 @@ namespace Mobile_App_Estiven.ViewModels
         {
             try
             {
+                 
                 IsBusy = true;
-                var clients = await _clientService.GetClientsAsycn();
-                if (clients != null)
+                var listmast = await _listUserService.GetListMasterAsycn();
+                if (listmast != null)
                 {
-                    Clients.ReplaceRange(clients);
+                    ListUsers.ReplaceRange(listmast);
+
+                
                 }
             }
             catch (Exception ex)
@@ -73,8 +59,7 @@ namespace Mobile_App_Estiven.ViewModels
             {
                 IsBusy = false;
             }
-
-
         }
+
     }
 }

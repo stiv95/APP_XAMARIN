@@ -8,15 +8,100 @@
              xmlns:resx="clr-namespace:Mobile_App_Estiven.Resx"
              helpers:ViewModelLocator.AutoWireViewModel="True"
              x:DataType="ViewModels:CrearViewModel"
-             xmlns:local="clr-namespace:Mobile_App_Estiven;assembly=Mobile_App_Estiven"
+             xmlns:local="clr-namespace:Mobile_App_Estiven;assembly=Mobile_App_Estiven" 
+             xmlns:xct="http://xamarin.com/schemas/2020/toolkit"
+             xmlns:models="clr-namespace:Mobile_App_Estiven.Data.Models" 
+             xmlns:controls="clr-namespace:Mobile_App_Estiven.Controls"
              mc:Ignorable="d"
              x:Class="Mobile_App_Estiven.Views.CrearPage">
+    
+    <ContentPage.Behaviors>
+        <xct:EventToCommandBehavior EventName="Appearing" Command="{Binding AppearingCommand}"/>
+    </ContentPage.Behaviors>
+    
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <DataTemplate x:DataType="models:ListUser"
+                x:Key="ListUserDefaultTemplate">
+                <StackLayout>
+                    <Frame CornerRadius="15"
+                       BackgroundColor="AliceBlue">
+                        <Grid ColumnDefinitions="*,*">
+                            <Label  Text="{Binding NameList}" FontAttributes="Italic" TextColor="Black" FontSize="14"/>
+                            <Label Grid.Column="1" Text="{Binding NameProduct}" FontAttributes="Italic" TextColor="Black" FontSize="14"/>
+                            <Label Grid.Column="2" Text="{Binding Marca}" FontAttributes="Italic" TextColor="Black" FontSize="14"/>
+                            <Label Grid.Column="3" Text="{Binding Cantidad}" FontAttributes="Italic" TextColor="Black" FontSize="14"/>
+                            <Label Grid.Column="4" Text="{Binding ValorUnitario}" FontAttributes="Italic" TextColor="Black" FontSize="14"/>
+                            
+                        </Grid>
+                    </Frame>
+                    <BoxView BackgroundColor="Transparent" HeightRequest="5" />
+                </StackLayout>
+            </DataTemplate>
+
+            <DataTemplate x:DataType="models:ListUser"
+                x:Key="ListUserOneToFiveTemplate">
+                <StackLayout>
+                    <Frame CornerRadius="15"
+                       BackgroundColor="LightCoral">
+                        <Grid ColumnDefinitions="*,*">
+                            <Label Grid.Column="0" Text="{Binding NameList}" FontAttributes="Italic" TextColor="Black" FontSize="14"/>
+                            <Label Grid.Column="1" Text="{Binding NameProduct}" FontAttributes="Italic" TextColor="Black" FontSize="14"/>
+                            <Label Grid.Column="2" Text="{Binding Marca}" FontAttributes="Italic" TextColor="Black" FontSize="14"/>
+                            <Label Grid.Column="3" Text="{Binding Cantidad}" FontAttributes="Italic" TextColor="Black" FontSize="14"/>
+                            <Label Grid.Column="4" Text="{Binding ValorUnitario}" FontAttributes="Italic" TextColor="Black" FontSize="14"/>
+                        </Grid>
+                    </Frame>
+                    <BoxView BackgroundColor="Transparent" HeightRequest="5" />
+                </StackLayout>
+            </DataTemplate>
+
+            <DataTemplate x:DataType="models:ListUser"
+                x:Key="ListUserSixToTenTemplate">
+                <StackLayout>
+                    <Frame CornerRadius="15"
+                       BackgroundColor="LightGreen">
+                        <Grid ColumnDefinitions="*,*">
+                            <Label Grid.Column="0" Text="{Binding NameList}" FontAttributes="Italic" TextColor="Black" FontSize="14"/>
+                            <Label Grid.Column="1" Text="{Binding NameProduct}" FontAttributes="Italic" TextColor="Black" FontSize="14"/>
+                            <Label Grid.Column="2" Text="{Binding Marca}" FontAttributes="Italic" TextColor="Black" FontSize="14"/>
+                            <Label Grid.Column="3" Text="{Binding Cantidad}" FontAttributes="Italic" TextColor="Black" FontSize="14"/>
+                            <Label Grid.Column="4" Text="{Binding ValorUnitario}" FontAttributes="Italic" TextColor="Black" FontSize="14"/>
+                        </Grid>
+                    </Frame>
+                    <BoxView BackgroundColor="Transparent" HeightRequest="5" />
+                </StackLayout>
+            </DataTemplate>
+
+            <controls:ListUserTemplateSelector
+                x:Key="ListUserTemplateSelector"
+                DefaultTemplate="{StaticResource ListUserDefaultTemplate}"
+                OneToFiveTemplate="{StaticResource ListUserOneToFiveTemplate}"
+                SixToTenTemplate="{StaticResource ListUserSixToTenTemplate}"/>
+        </ResourceDictionary>
+    </ContentPage.Resources>
     <ContentPage.Content>
         <StackLayout Orientation="Vertical" Padding="40,24,40,24" Spacing="10">
             <Label Text="Bienvenido a List Master" FontSize="30"  HorizontalTextAlignment="Center" TextColor="Black"/>
-            <Label VerticalOptions="Center" FontAttributes="Italic" Text="ListMaster es una aplicacion la cual podras crear listas facilmente de tus compras para mercado, farmacia, mascotas y mucho más!!"  FontSize="20" Padding="0,0,0,0" TextColor="Black"/>
+            <Label VerticalOptions="Center" FontAttributes="Italic" Text="ListMaster es una aplicacion la cual podras crear listas facilmente de tus compras de mercado, farmacia, mascotas y mucho más!!"  FontSize="20" Padding="0,0,0,0" TextColor="Black"/>
             <Image Source="{local:ImageResourcesExtensions  Mobile_App_Estiven.Resources.Images.list.png}" HeightRequest="200" Margin="15"/>
-            
-        </StackLayout>
+
+            <CollectionView ItemsSource="{Binding ListUsers}"
+                  EmptyView="No hay listas disponibles"                            
+                  ItemTemplate="{StaticResource ListUserTemplateSelector}">
+                    <CollectionView.Header>
+                    <Grid ColumnDefinitions="*,*">
+                        <Label Grid.Column="0" Text="Name" FontAttributes="Italic" TextColor="Red" FontSize="14"/>
+                        <Label Grid.Column="1" Text="Product" FontAttributes="Italic" TextColor="Red" FontSize="14"/>
+                        <Label Grid.Column="2" Text="Marca" FontAttributes="Italic" TextColor="Red" FontSize="14"/>
+                        <Label Grid.Column="3" Text="Cantidad" FontAttributes="Italic" TextColor="Red" FontSize="14"/>
+                        <Label Grid.Column="4" Text="ValorUnitario" FontAttributes="Italic" TextColor="Red" FontSize="14"/>
+                    </Grid>
+                    </CollectionView.Header>
+
+                </CollectionView>
+
+
+            </StackLayout>
     </ContentPage.Content>
 </ContentPage>

@@ -8,17 +8,17 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("Mobile_App_Estiven.Views.StartPage.xaml", "Views/StartPage.xaml", typeof(global::Mobile_App_Estiven.Views.StartPages))]
+[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("Mobile_App_Estiven.Views.StartPage.xaml", "Views/StartPage.xaml", typeof(global::Mobile_App_Estiven.Views.StartPage))]
 
 namespace Mobile_App_Estiven.Views {
     
     
     [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Views\\StartPage.xaml")]
-    public partial class StartPages : global::Xamarin.Forms.ContentPage {
+    public partial class StartPage : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private void InitializeComponent() {
-            global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(StartPages));
+            global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(StartPage));
         }
     }
 }

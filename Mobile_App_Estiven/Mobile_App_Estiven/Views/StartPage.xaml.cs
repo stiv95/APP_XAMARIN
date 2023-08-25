@@ -9,12 +9,12 @@ using Xamarin.Forms.Xaml;
 
 namespace Mobile_App_Estiven.Views
 {
-    [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class StartPages : ContentPage
-    {
-        public StartPages()
-        {
-            InitializeComponent();
-        }
-    }
+	[XamlCompilation(XamlCompilationOptions.Compile)]
+	public partial class StartPage : ContentPage
+	{
+		public StartPage ()
+		{
+			InitializeComponent ();
+		}
+	}
 }

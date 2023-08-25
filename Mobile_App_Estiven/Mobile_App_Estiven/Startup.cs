@@ -42,6 +42,10 @@ namespace Mobile_App_Estiven
                 .ConfigureHttpClient(c => c.BaseAddress = new Uri(Settings.ApiBaseUri))
                 .AddHttpMessageHandler<BaseAddressHandler>();
 
+                serviceCollection.AddRefitClient<IListUserApi>(refitSettings)
+                .ConfigureHttpClient(c => c.BaseAddress = new Uri(Settings.ApiBaseUri))
+                .AddHttpMessageHandler<BaseAddressHandler>();
+
 
             containerBuilder.Populate(serviceCollection);
 

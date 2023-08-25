@@ -7,6 +7,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="App.xaml.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
     <None Remove="Resources\Images\image.png" />
     <None Remove="Resources\Images\list.png" />
     <None Remove="Resources\Images\login.png" />
@@ -23,7 +27,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Autofac" Version="7.0.1" />
+    <PackageReference Include="Autofac" Version="7.1.0" />
     <PackageReference Include="Autofac.Extensions.DependencyInjection" Version="8.0.0" />
     <PackageReference Include="Microsoft.VisualStudio.Services.Client" Version="16.205.1" />
     <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
@@ -32,7 +36,7 @@
     <PackageReference Include="Refit.Newtonsoft.Json" Version="7.0.0" />
     <PackageReference Include="Xamarin.CommunityToolkit" Version="2.0.6" />
     <PackageReference Include="Xamarin.Forms" Version="5.0.0.2612" />  
-    <PackageReference Include="Xamarin.Essentials" Version="1.7.7" />
+    <PackageReference Include="Xamarin.Essentials" Version="1.8.0" />
   </ItemGroup>
 
   <ItemGroup>
@@ -46,9 +50,6 @@
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>
       <DependentUpon>AppResources.resx</DependentUpon>
-    </Compile>
-    <Compile Update="Views\StartPage.xaml.cs">
-      <DependentUpon>StartPage.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
 

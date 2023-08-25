@@ -95,6 +95,3 @@ C:\APP_XAMARIN_2\Mobile_App_Estiven\Mobile_App_Estiven.iOS\obj\iPhone\Debug\Mobi
 C:\APP_XAMARIN_2\Mobile_App_Estiven\Mobile_App_Estiven.iOS\obj\iPhone\Debug\Mobile_App_Estiven.iOS.csproj.CopyComplete
 C:\APP_XAMARIN_2\Mobile_App_Estiven\Mobile_App_Estiven.iOS\obj\iPhone\Debug\Mobile_App_Estiven.iOS.exe
 C:\APP_XAMARIN_2\Mobile_App_Estiven\Mobile_App_Estiven.iOS\obj\iPhone\Debug\Mobile_App_Estiven.iOS.pdb
-C:\APP_XAMARIN_2\Mobile_App_Estiven\Mobile_App_Estiven.iOS\bin\iPhone\Debug\Mono.Android.dll
-C:\APP_XAMARIN_2\Mobile_App_Estiven\Mobile_App_Estiven.iOS\bin\iPhone\Debug\Mono.Android.pdb
-C:\APP_XAMARIN_2\Mobile_App_Estiven\Mobile_App_Estiven.iOS\bin\iPhone\Debug\Mono.Android.xml

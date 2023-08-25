@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "rDUFtlE2oW5YxW3ZiFTR698bnQR6zM8mEeopfeT9/55zfVyoyFCfpUqQckN7XSYCfm4La114hjdtwhcLoWVmeQ==",
+  "dgSpecHash": "oA9yLQRqwkXBrYIeg5ugZxMAHhDef0oOWXqa6NkQy84nPhkskOx7F+QBw5M6WABD2tC03X5xo+mqw+NjQfLr5A==",
   "success": true,
   "projectFilePath": "C:\\APP_XAMARIN_2\\Mobile_App_Estiven\\Mobile_App_Estiven.Android\\Mobile_App_Estiven.Android.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\jmoreno\\.nuget\\packages\\autofac\\7.0.1\\autofac.7.0.1.nupkg.sha512",
+    "C:\\Users\\jmoreno\\.nuget\\packages\\autofac\\7.1.0\\autofac.7.1.0.nupkg.sha512",
     "C:\\Users\\jmoreno\\.nuget\\packages\\autofac.extensions.dependencyinjection\\8.0.0\\autofac.extensions.dependencyinjection.8.0.0.nupkg.sha512",
     "C:\\Users\\jmoreno\\.nuget\\packages\\microsoft.aspnet.webapi.client\\5.2.7\\microsoft.aspnet.webapi.client.5.2.7.nupkg.sha512",
     "C:\\Users\\jmoreno\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\7.0.0\\microsoft.bcl.asyncinterfaces.7.0.0.nupkg.sha512",
@@ -100,7 +100,7 @@
     "C:\\Users\\jmoreno\\.nuget\\packages\\xamarin.androidx.viewpager\\1.0.0.15\\xamarin.androidx.viewpager.1.0.0.15.nupkg.sha512",
     "C:\\Users\\jmoreno\\.nuget\\packages\\xamarin.androidx.viewpager2\\1.0.0.10\\xamarin.androidx.viewpager2.1.0.0.10.nupkg.sha512",
     "C:\\Users\\jmoreno\\.nuget\\packages\\xamarin.communitytoolkit\\2.0.6\\xamarin.communitytoolkit.2.0.6.nupkg.sha512",
-    "C:\\Users\\jmoreno\\.nuget\\packages\\xamarin.essentials\\1.7.7\\xamarin.essentials.1.7.7.nupkg.sha512",
+    "C:\\Users\\jmoreno\\.nuget\\packages\\xamarin.essentials\\1.8.0\\xamarin.essentials.1.8.0.nupkg.sha512",
     "C:\\Users\\jmoreno\\.nuget\\packages\\xamarin.forms\\5.0.0.2612\\xamarin.forms.5.0.0.2612.nupkg.sha512",
     "C:\\Users\\jmoreno\\.nuget\\packages\\xamarin.google.android.material\\1.4.0.2\\xamarin.google.android.material.1.4.0.2.nupkg.sha512",
     "C:\\Users\\jmoreno\\.nuget\\packages\\xamarin.google.guava.listenablefuture\\1.0.0.12\\xamarin.google.guava.listenablefuture.1.0.0.12.nupkg.sha512",

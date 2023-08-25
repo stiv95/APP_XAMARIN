@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "4m/PFIz5sI+ewmlzkzg+39sOWuuhmZt9SKFl5VMZWNRY6bcUGFEbkbCUJ1TzvChoVYusHl4am1XH+/YQAT1oAA==",
+  "dgSpecHash": "b/HOnn7cV6D7JHbcDzVQAgsZv/+ZzIQPaDk0juSw6B8i3usekggkufgagFwO8wqlv/9VkvfFrDV6OfB915FBMQ==",
   "success": true,
   "projectFilePath": "C:\\APP_XAMARIN_2\\Mobile_App_Estiven\\Mobile_App_Estiven.iOS\\Mobile_App_Estiven.iOS.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\jmoreno\\.nuget\\packages\\autofac\\7.0.1\\autofac.7.0.1.nupkg.sha512",
+    "C:\\Users\\jmoreno\\.nuget\\packages\\autofac\\7.1.0\\autofac.7.1.0.nupkg.sha512",
     "C:\\Users\\jmoreno\\.nuget\\packages\\autofac.extensions.dependencyinjection\\8.0.0\\autofac.extensions.dependencyinjection.8.0.0.nupkg.sha512",
     "C:\\Users\\jmoreno\\.nuget\\packages\\microsoft.aspnet.webapi.client\\5.2.7\\microsoft.aspnet.webapi.client.5.2.7.nupkg.sha512",
     "C:\\Users\\jmoreno\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\7.0.0\\microsoft.bcl.asyncinterfaces.7.0.0.nupkg.sha512",
@@ -40,7 +40,7 @@
     "C:\\Users\\jmoreno\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512",
     "C:\\Users\\jmoreno\\.nuget\\packages\\system.xml.xpath.xmldocument\\4.3.0\\system.xml.xpath.xmldocument.4.3.0.nupkg.sha512",
     "C:\\Users\\jmoreno\\.nuget\\packages\\xamarin.communitytoolkit\\2.0.6\\xamarin.communitytoolkit.2.0.6.nupkg.sha512",
-    "C:\\Users\\jmoreno\\.nuget\\packages\\xamarin.essentials\\1.7.7\\xamarin.essentials.1.7.7.nupkg.sha512",
+    "C:\\Users\\jmoreno\\.nuget\\packages\\xamarin.essentials\\1.8.0\\xamarin.essentials.1.8.0.nupkg.sha512",
     "C:\\Users\\jmoreno\\.nuget\\packages\\xamarin.forms\\5.0.0.2612\\xamarin.forms.5.0.0.2612.nupkg.sha512"
   ],
   "logs": []

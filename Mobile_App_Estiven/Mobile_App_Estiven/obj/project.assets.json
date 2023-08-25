@@ -2,7 +2,7 @@
   "version": 3,
   "targets": {
     ".NETStandard,Version=v2.1": {
-      "Autofac/7.0.1": {
+      "Autofac/7.1.0": {
         "type": "package",
         "dependencies": {
           "System.Diagnostics.DiagnosticSource": "4.7.1"
@@ -1925,7 +1925,7 @@
           }
         }
       },
-      "Xamarin.Essentials/1.7.7": {
+      "Xamarin.Essentials/1.8.0": {
         "type": "package",
         "dependencies": {
           "System.Numerics.Vectors": "4.5.0"
@@ -1969,15 +1969,15 @@
     }
   },
   "libraries": {
-    "Autofac/7.0.1": {
-      "sha512": "J9Iz0Q+YU3uf82i8Lee0NpQOlRYfwHxwVV26jdG3zH3LFE5Y9Rx97Mju7Nswwzh/C7kVJALkTL860Y7e+mcLaw==",
+    "Autofac/7.1.0": {
+      "sha512": "XCXmpxhOnuztTTRkzG+8B8KU8SR8WjBYwSntndjlsFR5lM3K/g43r9hUwewIPDBJwDrmZU3TjmNdH6s8IF3VFQ==",
       "type": "package",
-      "path": "autofac/7.0.1",
+      "path": "autofac/7.1.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "README.md",
-        "autofac.7.0.1.nupkg.sha512",
+        "autofac.7.1.0.nupkg.sha512",
         "autofac.nuspec",
         "icon.png",
         "lib/net6.0/Autofac.dll",
@@ -6549,18 +6549,18 @@
         "xamarin.communitytoolkit.nuspec"
       ]
     },
-    "Xamarin.Essentials/1.7.7": {
-      "sha512": "vcRWRCO3yK1fCbcUIMVgV09x7z9SbLNhw4Tt2OYfps+YDgmGaDfw4Qn3uEKQm9LPV0S0PDklPSJT3R+7mtix/w==",
+    "Xamarin.Essentials/1.8.0": {
+      "sha512": "g1yB0CkX7BVOx84P0SLm8guypbEfigqjddZsI9KgJzba6yRRcekBqDp6YTT1hO8ZcFcW8VZbsymejTJftJoQyg==",
       "type": "package",
-      "path": "xamarin.essentials/1.7.7",
+      "path": "xamarin.essentials/1.8.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "LICENSE",
         "icon.png",
-        "lib/monoandroid10.0/Xamarin.Essentials.dll",
-        "lib/monoandroid10.0/Xamarin.Essentials.pdb",
-        "lib/monoandroid10.0/Xamarin.Essentials.xml",
+        "lib/monoandroid13.0/Xamarin.Essentials.dll",
+        "lib/monoandroid13.0/Xamarin.Essentials.pdb",
+        "lib/monoandroid13.0/Xamarin.Essentials.xml",
         "lib/netstandard1.0/Xamarin.Essentials.dll",
         "lib/netstandard1.0/Xamarin.Essentials.pdb",
         "lib/netstandard1.0/Xamarin.Essentials.xml",
@@ -6587,7 +6587,7 @@
         "lib/xamarinwatchos10/Xamarin.Essentials.pdb",
         "lib/xamarinwatchos10/Xamarin.Essentials.xml",
         "readme.txt",
-        "xamarin.essentials.1.7.7.nupkg.sha512",
+        "xamarin.essentials.1.8.0.nupkg.sha512",
         "xamarin.essentials.nuspec"
       ]
     },
@@ -6812,7 +6812,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.1": [
-      "Autofac >= 7.0.1",
+      "Autofac >= 7.1.0",
       "Autofac.Extensions.DependencyInjection >= 8.0.0",
       "Microsoft.VisualStudio.Services.Client >= 16.205.1",
       "Newtonsoft.Json >= 13.0.3",
@@ -6820,7 +6820,7 @@
       "Refit.HttpClientFactory >= 7.0.0",
       "Refit.Newtonsoft.Json >= 7.0.0",
       "Xamarin.CommunityToolkit >= 2.0.6",
-      "Xamarin.Essentials >= 1.7.7",
+      "Xamarin.Essentials >= 1.8.0",
       "Xamarin.Forms >= 5.0.0.2612"
     ]
   },
@@ -6874,7 +6874,7 @@
         "dependencies": {
           "Autofac": {
             "target": "Package",
-            "version": "[7.0.1, )"
+            "version": "[7.1.0, )"
           },
           "Autofac.Extensions.DependencyInjection": {
             "target": "Package",
@@ -6906,7 +6906,7 @@
           },
           "Xamarin.Essentials": {
             "target": "Package",
-            "version": "[1.7.7, )"
+            "version": "[1.8.0, )"
           },
           "Xamarin.Forms": {
             "target": "Package",
