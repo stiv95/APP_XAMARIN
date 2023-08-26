@@ -13,7 +13,7 @@ namespace Mobile_App_Estiven.Data.API
         [Get("/ListUsers")]
         Task<List<ListUser>> GetListMasterAsycn();
 
-        [Post("/ListUsers")]
+        [Post("/ListUsers/PostListUser")]
         Task<HttpResponseMessage> PostListUserAsync(ListUser listUser);
     }
 }

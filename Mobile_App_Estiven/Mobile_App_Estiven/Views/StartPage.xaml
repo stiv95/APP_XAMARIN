@@ -4,11 +4,11 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              xmlns:ViewModels="clr-namespace:Mobile_App_Estiven.ViewModels"
-             xmlns:helpers="clr-namespace:Mobile_App_Estiven.Helpers"
-             helpers:ViewModelLocator.AutoWireViewModel="True"
-             x:DataType="ViewModels:StarViewModel"
+             x:DataType="ViewModels:StartViewModel"
+               xmlns:helpers="clr-namespace:Mobile_App_Estiven.Helpers"
+            xmlns:resx="clr-namespace:Mobile_App_Estiven.Resx"
+            helpers:ViewModelLocator.AutoWireViewModel="True"
              xmlns:local="clr-namespace:Mobile_App_Estiven;assembly=Mobile_App_Estiven" 
-             xmlns:xct="http://xamarin.com/schemas/2020/toolkit"
              mc:Ignorable="d"
              x:Class="Mobile_App_Estiven.Views.StartPage">
     <ContentPage.Content>

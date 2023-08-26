@@ -11,7 +11,7 @@ namespace Mobile_App_Estiven.Services
     {
         Task<List<ListUser>> GetListMasterAsycn();
 
-        void PostListUserAsync(ListUser listUser);
+        Task<Int32> PostListUserAsync(ListUser listUser);
         //void PostListUserAsync(ListUser listUser);
 
     }

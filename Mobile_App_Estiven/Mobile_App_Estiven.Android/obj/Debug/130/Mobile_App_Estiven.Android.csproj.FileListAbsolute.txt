@@ -1,3 +1,5 @@
+C:\APP_XAMARIN_2\Mobile_App_Estiven\Mobile_App_Estiven.Android\obj\Debug\130\android\typemaps.arm64-v8a.ll
+C:\APP_XAMARIN_2\Mobile_App_Estiven\Mobile_App_Estiven.Android\obj\Debug\130\app_shared_libraries\x86\libxamarin-app.so
 C:\APP_XAMARIN_2\Mobile_App_Estiven\Mobile_App_Estiven.Android\bin\Debug\Mobile_App_Estiven.Android.dll
 C:\APP_XAMARIN_2\Mobile_App_Estiven\Mobile_App_Estiven.Android\bin\Debug\Mobile_App_Estiven.Android.pdb
 C:\APP_XAMARIN_2\Mobile_App_Estiven\Mobile_App_Estiven.Android\bin\Debug\com.companyname.mobile_app_estiven.apk
@@ -323,7 +325,6 @@ C:\APP_XAMARIN_2\Mobile_App_Estiven\Mobile_App_Estiven.Android\obj\Debug\130\and
 C:\APP_XAMARIN_2\Mobile_App_Estiven\Mobile_App_Estiven.Android\obj\Debug\130\android\assets\Xamarin.Kotlin.StdLib.Jdk8.dll
 C:\APP_XAMARIN_2\Mobile_App_Estiven\Mobile_App_Estiven.Android\obj\Debug\130\android\assets\Xamarin.KotlinX.Coroutines.Android.dll
 C:\APP_XAMARIN_2\Mobile_App_Estiven\Mobile_App_Estiven.Android\obj\Debug\130\android\assets\Xamarin.KotlinX.Coroutines.Core.Jvm.dll
-C:\APP_XAMARIN_2\Mobile_App_Estiven\Mobile_App_Estiven.Android\obj\Debug\130\android\typemaps.arm64-v8a.ll
 C:\APP_XAMARIN_2\Mobile_App_Estiven\Mobile_App_Estiven.Android\obj\Debug\130\android\typemaps.armeabi-v7a.ll
 C:\APP_XAMARIN_2\Mobile_App_Estiven\Mobile_App_Estiven.Android\obj\Debug\130\android\typemaps.x86.ll
 C:\APP_XAMARIN_2\Mobile_App_Estiven\Mobile_App_Estiven.Android\obj\Debug\130\android\typemaps.x86_64.ll
@@ -768,7 +769,6 @@ C:\APP_XAMARIN_2\Mobile_App_Estiven\Mobile_App_Estiven.Android\obj\Debug\130\and
 C:\APP_XAMARIN_2\Mobile_App_Estiven\Mobile_App_Estiven.Android\obj\Debug\130\android\jni_remap.x86_64.o
 C:\APP_XAMARIN_2\Mobile_App_Estiven\Mobile_App_Estiven.Android\obj\Debug\130\app_shared_libraries\arm64-v8a\libxamarin-app.so
 C:\APP_XAMARIN_2\Mobile_App_Estiven\Mobile_App_Estiven.Android\obj\Debug\130\app_shared_libraries\armeabi-v7a\libxamarin-app.so
-C:\APP_XAMARIN_2\Mobile_App_Estiven\Mobile_App_Estiven.Android\obj\Debug\130\app_shared_libraries\x86\libxamarin-app.so
 C:\APP_XAMARIN_2\Mobile_App_Estiven\Mobile_App_Estiven.Android\obj\Debug\130\app_shared_libraries\x86_64\libxamarin-app.so
 C:\APP_XAMARIN_2\Mobile_App_Estiven\Mobile_App_Estiven.Android\obj\Debug\130\android\bin\classes.dex
 C:\APP_XAMARIN_2\Mobile_App_Estiven\Mobile_App_Estiven.Android\obj\Debug\130\android\bin\classes2.dex

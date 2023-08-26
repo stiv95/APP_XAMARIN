@@ -37,17 +37,19 @@ namespace Mobile_App_Estiven.Services
 
         }
 
-        public async void PostListUserAsync(ListUser listUser)
+        public async Task<Int32> PostListUserAsync(ListUser listUser)
         {
             var eresponse = await _listUserApi.PostListUserAsync(listUser);
 
             if (eresponse.StatusCode == System.Net.HttpStatusCode.OK)
             {
                 await Application.Current.MainPage.DisplayAlert("Informacion", "Guardado con exito.", "OK");
+                return 0;
             }
             else
             {
                 await Application.Current.MainPage.DisplayAlert("ERROR", "Verifique su información.", "Aceptar");
+                return 1;
             }
 
         }
